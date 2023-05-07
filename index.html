@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+  <body>
+    <p id=""Demo">Good Evening!</p>
+    <script>
+      const time = new Date().getHours();
+      let greeting;
+      if (time < 10) {
+        greeting = "Good morning!";
+      } else if (time < 20) {
+        greeting = "Good day!"
+      } else {
+        greeting = "Good evening!";
+      }
+    console.log(greeting);
+    </script>
+  </body>
+</html>
